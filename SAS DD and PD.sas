@@ -446,7 +446,7 @@ run;
 /*opens pdf file, allows for input*/
 /*remember to close file at end of program*/
 /*set location of Ppath to desired location of pdf*/
-ods pdf file = "&Ppath\Distance_to_Default.pdf";
+ods pdf file = "&Ppath\Distance_to_Default_Data.pdf";
 
 /*---------------------------------------------------Stats & Corr for DD and PD---------------------------------------------------*/
 /*creates a data set for descriptive stats*/
