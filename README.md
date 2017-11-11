@@ -32,3 +32,10 @@
     - use equation 1 (equity option) to solve for asset value V on a per day basis using the estimated σV
     - construct the time-series of asset value and use this to compute the a new estimate of σV
     - This process is repeated till the value of σV and its previous estimate converge
+
+## Other Trends
+    The Distance to Default and Probability of Default methods were compared to other sets of data
+    to draw conclusions on possible correlations and similar trends
+    - US recession data (USREC)
+    - Moody's Seasoned Baa Corporate Bond Minus Federal Funds Rate (BAAFFM)
+    - Cleveland Financial Stress Index (CFSI)
