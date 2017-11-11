@@ -30,7 +30,7 @@
     Using Equation 1 from the previous method, V can be solved for iteratively.
     - estimate an initial value of σV; in this case σE is a close approximation for the first iteration
     - use equation 1 (equity option) to solve for asset value V on a per day basis using the estimated σV
-    - construct the time-series of asset value and use this to compute the a new estimate of σV
+    - construct the time-series of asset value and use this to compute the new estimate of σV
     - This process is repeated till the value of σV and its previous estimate converge
 
 ## Other Trends
