@@ -1,5 +1,4 @@
 /*Austin Griffith
-/*jgriffith48
 /*10/31/2017
 /*Computing Distance to Default Method 3 (Iterative) for 1970 to 2015
 /*Comparison with Method 1 (Naive) and Method 2 (Direct)*/
@@ -8,7 +7,7 @@ OPTIONS ls = 70 nodate nocenter;
 OPTIONS missing = '';
 
 /*file paths need to be updated according to current computer*/
-%let Ppath = P:\SAS Assignment 5;
+%let Ppath = P:\Distance to Default;
 %let Cpath = Q:\Data-ReadOnly\COMP;
 %let Dpath = Q:\Data-ReadOnly\CRSP;
 
