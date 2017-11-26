@@ -1,13 +1,14 @@
 # distance_to_default
 ## Method 1: Naive
     DD = (log(E + F/F) + (annret − σV^2 /2)T)/(σV * sqrt(T))
-    where
+
+where
+
     - σV = (E/E+F) * σE + (F / E + F)*(0.05 + 0.25 * σE)
     - annret is the annual returns from the previous year
 
 ## Method 2: Direct Solve
 #### Equation 1:
-
     E = V * N(d1) − exp(−r * T) + F * N(d2)
 
 where
@@ -20,7 +21,6 @@ where
     - d2 = d1 − σV * sqrt(T)
 
 #### Equation 2:
-
     σE = (V/E) * N(d1) * σV
 
 The second equation is derived from an application of Ito’s lemma, and the fact that
