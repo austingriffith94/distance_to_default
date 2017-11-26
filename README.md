@@ -37,13 +37,19 @@ With two nonlinear equations and two unknowns, V σV can be directly solved.
 
 ## Method 3: Iterative (KMV)
 Using Equation 1 from the previous method, V can be solved for iteratively.
-    - estimate an initial value of σV; in this case σE is a close approximation for the first iteration
-    - use equation 1 (equity option) to solve for asset value V on a per day basis using the estimated σV
-    - construct the time-series of asset value and use this to compute the new estimate of σV
-    - This process is repeated till the value of σV and its previous estimate converge
+
+- Estimate an initial value of σV
+    in this case σE is a close approximation for the first iteration
+- Use equation 1 (equity option)
+    solve for asset value V on a per day basis using the estimated σV
+- Construct the time-series of asset value
+    compute the new estimate of σV for the given year
+- Converge
+    the previous steps are repeated till the value of σV and its previous estimate converge
 
 ## Other Trends
 The Distance to Default and Probability of Default methods were compared to other sets of data to draw conclusions on possible correlations and similar trends
-    - US recession data (USREC)
-    - Moody's Seasoned Baa Corporate Bond Minus Federal Funds Rate (BAAFFM)
-    - Cleveland Financial Stress Index (CFSI)
+
+- US recession data (USREC)
+- Moody's Seasoned Baa Corporate Bond Minus Federal Funds Rate (BAAFFM)
+- Cleveland Financial Stress Index (CFSI)
