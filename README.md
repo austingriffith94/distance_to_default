@@ -33,7 +33,7 @@ The unknowns are:
 - the firm value V and
 - the asset volatility σV
 
-Two nonlinear equations and two unknowns we can directly solve for V σV
+With two nonlinear equations and two unknowns, V σV can be directly solved.
 
 ## Method 3: Iterative (KMV)
 Using Equation 1 from the previous method, V can be solved for iteratively.
