@@ -1,4 +1,6 @@
 # distance_to_default
+This code uses a naive, direct, and iterative approach to solving for distance to default and probability of default for firms from 1970 to 2015. The data used by the code can be found in the link [here.](https://goo.gl/DoHABj)
+
 ## Method 1: Naive
     DD = (log(E + F/F) + (annret − σV^2 /2)T)/(σV * sqrt(T))
 
